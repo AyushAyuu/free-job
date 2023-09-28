@@ -1,0 +1,123 @@
+@media(max-width:1250px){
+.about{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+    /* grid-template-rows: repeat(2 , 20px); */
+}
+.about>img{
+    margin-top: 8%;
+
+    border: 2px solid rgba(161, 159, 159, 0.657);;
+}
+.inner_about{
+    /* border: 2px solid blue; */
+        width: 40%;
+        /* height: 100%; */
+        padding: 8px;
+        margin-top: 4%;
+}
+.inner_about>h3{
+    font-size: 2.5rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgba(19, 19, 19, 0.867);
+    /* line-height: 3px; */
+}
+.inner_about>h2{
+    margin-top: 5px;
+    font-size: 4rem;
+    color: #60c0e6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inner_about>p{
+    margin-top: 5px;
+    font-size: 1.3rem;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inner_about> .btn1,.visit{
+    height: 10%;
+    width: 30%;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    /* border-left: 20px; */
+    border-radius: 20px;
+}
+.inner_about> .btn1{
+    background-color: rgb(100, 100, 253);
+   
+    margin-top: 3%;
+}
+.btn1:hover{
+    box-shadow: 0px 1px 5px 5px rgb(139, 139, 254);
+
+}
+.inner_about>.visit{
+    margin-top: 3%;
+    background-color: green;
+   
+}
+.visit i{
+    display: none;
+}
+
+.visit:hover{
+    width: 34%;
+    box-shadow: 0px 1px 5px 3px rgb(55, 174, 120);
+}
+.visit:hover i{
+    display: inline;
+    font-size: 2rem;
+    margin-left: 24px;
+}
+}
+@media(max-width:1010px){
+    .inner_about> .btn1,.visit{
+        width: 40%;
+        font-size: 1.2rem;
+       }
+    
+    }
+    @media(max-width:780px){
+        
+           .about>img{
+            height: 28rem;
+            width: 40%;
+            }
+        
+        
+        }
+        
+     @media(max-width:650px){
+        .about{
+            flex-direction: column;
+            gap: 0%;
+            }
+        .about>img{
+            height: 250px;
+            width: 40%;
+            margin-left: 28%;
+            
+            }
+        .inner_about{
+                width: 100%;
+                padding: 5%;
+                /* margin-top: 8%; */
+        }
+        .inner_about>h3{
+            font-size: 2rem;
+            }
+        .inner_about>h2{
+            font-size: 3rem;
+            }
+        
+        .inner_about> .btn1,.visit{
+            height: 3rem;
+            width: 60%;
+            margin-left: 20%;
+            }
+        
+    } 

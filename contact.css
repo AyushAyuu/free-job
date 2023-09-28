@@ -1,0 +1,126 @@
+@media(max-width:1250px){
+.contact{
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+.inner_contact{
+    /* border: 2px solid blue; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 10px;
+    width:40%;
+    margin-left: 28%;
+    font-size: 1.5rem;
+}
+.inner_contact fieldset{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    /* justify-content: center; */
+}
+.inner_contact fieldset legend{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    font-weight: bolder;
+}
+.inner_contact form {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+.inner_contact input,textarea,select,button{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.inner_contact input{
+    /* width: 100%; */
+    height: 30px;
+    /* font-size: 1.7rem; */
+    /* margin-bottom: 10px; */
+}
+.inner_contact h3{
+    font-size:1.5rem ;
+    margin-bottom: 10px;
+    /* width: 100%; */
+}
+.inner_contact button{
+    font-size: 1.8rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+
+}
+.inner_contact .btn1{
+    background-color: green;
+    margin-bottom: 15px;
+   }
+.inner_contact .btn1:hover{
+    box-shadow: 1px 2px 3px 3px rgba(0, 128, 0, 0.765);
+
+}
+.inner_contact .cbtn2{
+    background-color: rgba(252, 27, 27, 0.895);
+}
+}
+@media(max-width:700px){
+    .inner_contact{
+        width: 100%;
+        margin-left: 0;
+    }
+    .inner_contact fieldset{
+        /* width: 100%; */
+        /* height: fit-content; */
+        padding: 8px;
+        /* justify-content: center; */
+    }
+    .inner_contact fieldset legend{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: brown;
+        font-weight: bolder;
+    }
+    .inner_contact form {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+    }
+    .inner_contact input,textarea,select,button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .inner_contact input{
+        /* width: 100%; */
+        height: 30px;
+        /* font-size: 1.7rem; */
+        /* margin-bottom: 10px; */
+    }
+    .inner_contact h3{
+        font-size:1.5rem ;
+        margin-bottom: 10px;
+        /* width: 100%; */
+    }
+    .inner_contact button{
+        font-size: 1.8rem;
+        border-radius: 20px;
+        border: 1px solid black;
+        
+    
+    }
+    .inner_contact .btn1{
+        background-color: green;
+        margin-bottom: 15px;
+       }
+    .inner_contact .btn1:hover{
+        box-shadow: 1px 2px 3px 3px rgba(0, 128, 0, 0.765);
+    
+    }
+    .inner_contact .cbtn2{
+        background-color: rgba(252, 27, 27, 0.895);
+    }
+    
+    
+    
+    
+}

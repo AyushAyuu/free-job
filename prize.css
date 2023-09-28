@@ -1,0 +1,103 @@
+@media(max-width:1250px){
+.prize_contain{
+    /* border: 2px solid blue; */
+    padding: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inner_prize{
+    /* border: 2px solid red; */
+    border: 2px solid rgba(161, 159, 159, 0.454);
+    
+    /* border: transparent; */
+    width: 24%;
+    height: 35rem;
+    /* position: relative; */
+    padding: 8px;
+}
+.inner_prize:hover{
+    margin-right: -35px;
+}
+.inner_prize>img{
+    height: 150px;
+    width: 100%;
+    /* position: absolute; */
+    /* border: 2px solid black; */
+}
+.inner_prize>h3{
+    margin-top:6%;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(71, 71, 225);
+    font-weight: bolder;
+}
+.inner_prize>p{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.inner_prize>h2{
+    margin-top: 6%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.btn2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-top: 4%;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: rgba(252, 27, 27, 0.895);
+    color: white;
+    transition: all 0.6s;
+}
+.btn2:hover{
+    background: transparent;
+    /* background-color: rgba(0, 0, 255, 0.895); */
+    width: 30%;
+    height: 40px;
+    margin-left: 25%;
+    border: none;
+    text-align: center;
+}
+.btn2>h4{
+    display: inline;
+}
+.btn2:hover h4{
+    display: none;
+}
+.btn2>img{
+    display: none;
+    box-shadow: 0px 1px 3px 2px red;
+}
+.btn2:hover img{
+    display: inline;
+    padding: 1px;
+    margin-top: -10px;
+    margin-left: 45px;
+    height: 45px;
+    border-radius: 50px;
+    
+    /* margin-top:4px ; */
+}
+}
+@media(max-width:700px){
+.prize_contain{
+    flex-direction: column;
+}
+.inner_prize{
+    /* border: 2px solid red; */
+    /* border: transparent; */
+    width: 50%;
+    height: 35rem;
+    margin-top: 15px;
+    /* padding: 8px; */
+}
+
+}
